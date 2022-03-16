@@ -4,5 +4,7 @@
 */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from '../src/pages/login'
 
-ReactDOM.render('111111', document.getElementById('修改代码'))
+
+ReactDOM.render(<App/>,document.getElementById('root'))
